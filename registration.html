@@ -1,0 +1,102 @@
+<html>
+    <title>ISCP Employee Registration Form</title>
+    <head> ISCP Employee Registration Form</head>
+    <body>
+      <h1> <img src="https://upload.wikimedia.org/wikipedia/en/c/c9/Seal_of_the_International_State_College_of_the_Philippines.png" style="Width:100px"></h1>
+        <h1> <iframe width="360" height="215" src="https://www.youtube.com/embed/aCUhfPAyDHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </h1>
+        <h1>Basic Information</h1>
+        <form>
+            <label for="firstName">First name: </label><br />
+            <input type="text" placeholder="ex. cholo" " id="firstName" /><br />
+            <label for="lastName">Last name: </label><br />
+            <input type="text" placeholder="ex. alcantara" id="lastName" /><br />
+            <label for="place of birth">Place of birth: </label><br />
+            <input type="text" placeholder="ex. lucena city" id="place of birth" /><br />
+            <label for="Birthdate">Birthdate: </label><br />
+            <input type="date" id="Birthdate"><br/>
+            <label for="Civil Status">Civil Status: </label><br />
+            <select name="dropdown">
+                <option selected disabled>Select one</option>
+                <option value="single">single</option>
+                <option value="married">married</option>
+                <option value="widowed">widowed</option>
+                <option value="separated">separated</option>
+            </select><br />
+            <label for="Gender">Gender: </label><br />
+            <input type="radio" name="Gender">male</input>
+            <input type="radio" name="Gender">female</input>
+            <input type="radio" name="Gender">other</input><br/>
+            
+            <label for="Mother's maiden name">Mother's maiden name: </label><br />
+            <input type="text" placeholder="ex. Meren Mortilla" " id="Mother's maiden name" /><br />
+            <label for="Father's name">Father's name: </label><br />
+            <input type="text" placeholder="ex. cholo alcantara sr." " id="Father's name" /><br />
+        </form>
+        <h2>Contact Information</h2>
+        <form>
+            <label for="email">Email: </label><br />
+            <input type="email" placeholder="ex. cholo@email.com" id="email"><br />
+            <label for="Contact number">Contact number(mobile): </label><br />
+            <input type="text" placeholder="ex. 09123456789" " id="Contact number" /><br />
+            <label for="Contact number(telephone)">Contact number(telephone): </label><br />
+            <input type="text" placeholder="ex. 525-7089" " id="Contact number(telephone)" /><br />
+        </form>
+
+        <h2>Address</h2>
+        <form>
+            <label for="Street number">Street number: </label><br />
+            <input type="Street number" placeholder="ex. 1504" id="Street number"><br />
+            <label for="Street name">Street name: </label><br />
+            <input type="Street name" placeholder="ex. G.Masangkay Corner Jr. Streets" id="Street name"><br />
+            <label for="Barangay">Barangay: </label><br />
+            <input type="Barangay" placeholder="ex. brgy.lutucan" id="Barangay"><br />
+            <label for="City/Town">City/Town: </label><br />
+            <input type="City/Town" placeholder="ex. kahit saan" id="City/Town"><br />
+            <label for="Province">Province: </label><br />
+            <input type="Province" placeholder="ex. quezon" id="Province"><br />
+            <label for="Full address">Full address: </label><br />
+            <input type="Full address" placeholder="ex. 1504 G.Masangkay Corner Jr. Streets, Sta. Cruz,Manila, Metro Manila,Philippines" id="Full address"><br />
+        </form>
+        <h2>Government Information</h2>
+        <form>
+            <label for="SSS ID">SSS ID: </label><br />
+            <input type="SSS ID" placeholder="ex. 1234567890" id="SSS ID"><br />
+            <label for="Pag-Ibig ID">Pag-Ibig ID: </label><br />
+            <input type="Pag-Ibig ID" placeholder="ex. 123456789789" id="Pag-Ibig ID"><br />
+            <label for="PhilHealth ID">PhilHealth ID: </label><br />
+            <input type="PhilHealth ID" placeholder="ex. 123456478912" id="PhilHealth ID"><br />
+            <label>Upload 2x2: </label><br/>
+            <input type="file" name="fileupload" accept="image/*" /><br/>
+            <label>Upload picture of government ID: </label><br/>
+            <input type="file" name="fileupload" accept="image/*" />
+        </form>
+        <h2>Account Information</h2>
+        <form>
+            <label for="Username">Username: </label><br />
+            <input type="text" placeholder="ex. kahit_ano" id="Username" /><br />
+            <label>Password: </label><br />
+             <input type="password" placeholder="at least 1 uppercase, at least 1 number"><br />
+            <label>Confirm password: </label><br />
+             <input type="password" placeholder="re-enter your password"><br />
+             <label>Upload profile image: </label><br/>
+             <input type="file" name="fileupload" accept="image/*" />
+        </form>
+        <h2>Have you experienced any of the following in the last 30 days?</h2>
+        <form>
+            <input type="checkbox" value="Coughing">Coughing</input><br />
+            <input type="checkbox" value="Fever">Fever</input><br />
+            <input type="checkbox" value="Headache">Headache</input><br />
+            <input type="checkbox" value="Common cold">Common cold</input><br />
+            <input type="checkbox" value="Body ache">Body ache</input><br />
+            <input type="checkbox" value="Sore throat">Sore throat</input><br />
+            <input type="checkbox" value="Tiredness">Tiredness</input><br />
+            <input type="checkbox" value="Loss of smell">Loss of smell</input><br />
+         </form>
+         <h2>Give a short description about yourself.</h2>
+         <form>
+            
+            <input type="text" placeholder="write you text here" style="width: 300px;height: 100px;" id="firstName" /><br />
+         </form>
+         <input type="button" value="Submit"></input>
+    </body>
+</html>

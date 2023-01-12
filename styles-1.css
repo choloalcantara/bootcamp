@@ -1,0 +1,69 @@
+body {
+    margin: 0px;
+    font-family: 'tahoma'
+}
+
+table {
+    text-align: center;
+    background-color: rgb(70, 130, 180);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#logo {
+    text-align: center;
+}
+
+h1 {
+    font-size: 250%;
+    color: rgb(70, 130, 180)
+}
+
+#pastor {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.free {
+    font-size: 200%;
+}
+
+.babineaux {
+    color: rgb(70, 130, 180);
+}
+
+.save {
+    color: rgb(255, 0, 216);
+}
+
+#cross {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px
+}
+
+
+#footer {
+    color: rgb(160, 160, 160);
+    font-size: 75%;
+    text-align: center;
+    margin-top: 50px
+}
+
+.privacy {
+    color: rgb(160, 160, 160)
+}
+
+.pr {
+    color: rgb(160, 160, 160)
+}
+
+.asdasd {
+    text-align: center;
+    list-style-position: inside;
+    margin-left: 150px;
+    margin-right: 150px;
+}
